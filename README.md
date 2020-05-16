@@ -33,8 +33,10 @@ para hacer update
 * Metodo DELETE
 URL: http://carloscordova.com/developer/api-rest/?user&unique=1
 elimina el indice donde unique es el id del registro a eliminar
+
 --------------------------------------------------------------------------------------------
 -- Ejemplo de respuestas
+
  * GET
  
  {
@@ -69,6 +71,7 @@ elimina el indice donde unique es el id del registro a eliminar
 * DELETE
 
 {"conect":true,"msg":" record delete successfully"}
+
 --------------------------------------------------------------------------------------------
 -- Codigos de respuestas
 
