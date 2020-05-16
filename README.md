@@ -36,6 +36,7 @@ elimina el indice donde unique es el id del registro a eliminar
 
 #Ejemplo de respuestas
  * GET
+ 
  {
   "conect": true,
   "msg": "Connection ok",
@@ -56,15 +57,23 @@ elimina el indice donde unique es el id del registro a eliminar
   ]
 }
 * POST
+
 - insert
+
 {"conect":true,"msg":"New record  successfully","latest_id":3}
 
 - Update
+
 {"conect":true,"msg":" record update successfully"}
 
 * DELETE
+
 {"conect":true,"msg":" record delete successfully"}
 
+* Codigos de respuestas
 
-
+* 200 OK
+* 201 Created
+* 400 Bad Request
+* 500 Internal Server Error
 
