@@ -1,7 +1,7 @@
 # API-Rest-PHP
 API rest con PHP y base de datos MariaDB
-
-#Ejemplo de invocacion
+--------------------------------------------------------------------------------------------
+-- Ejemplo de invocacion
 
 * metodo GET
 URL: http://carloscordova.com/developer/api-rest/?user
@@ -33,8 +33,8 @@ para hacer update
 * Metodo DELETE
 URL: http://carloscordova.com/developer/api-rest/?user&unique=1
 elimina el indice donde unique es el id del registro a eliminar
-
-#Ejemplo de respuestas
+--------------------------------------------------------------------------------------------
+-- Ejemplo de respuestas
  * GET
  
  {
@@ -69,8 +69,8 @@ elimina el indice donde unique es el id del registro a eliminar
 * DELETE
 
 {"conect":true,"msg":" record delete successfully"}
-
-* Codigos de respuestas
+--------------------------------------------------------------------------------------------
+-- Codigos de respuestas
 
 * 200 OK
 * 201 Created
