@@ -1,5 +1,5 @@
 # API-Rest-PHP
-API rest con PHP y base de datos MariaDB
+API rest con PHP y base de datos MySQL
 --------------------------------------------------------------------------------------------
 -- Ejemplo de invocacion
 
