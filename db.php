@@ -42,7 +42,7 @@ if ($this->conexion->query($sql) === TRUE) {
     if ($conect["conect"]) {
       $sql="";
       if ($val) {
-        $sql = "SELECT * FROM api_user where datedelete is null";
+        $sql = "SELECT * FROM api_user where datedelete is null order by id DESC";
       }else{
  $sql = "SELECT * FROM api_user where  datedelete is null and id=".intval($num);
       }
